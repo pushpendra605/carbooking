@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Hire Taxi Service & Cab Booking from India\'s Best Car Rental Provider- Bharat Taxi',
-  description: 'Bharat Taxi offers 24*7 taxi booking and cab service facility at an affordable fare. Book online taxi service in India, cab for rent, and car rental with driver at best deals.',
+  title: 'Hire Taxi Service & Cab Booking from India\'s Best Car Rental Provider- Wizz taxi',
+  description: 'Wizz taxi offers 24*7 taxi booking and cab service facility at an affordable fare. Book online taxi service in India, cab for rent, and car rental with driver at best deals.',
   keywords: 'Taxi Service in India, Cab Service in India, Cab Booking in India, Taxi Booking in India',
 }
 

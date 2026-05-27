@@ -41,7 +41,7 @@ export function WhyChoose() {
   return (
     <section id="why_choose" className="pt-100 pb-100 why_choose">
       <div className="container">
-        <h2 className="heading">Why Choose Bharat Taxi?</h2>
+        <h2 className="heading">Why Choose Wizz taxi?</h2>
         <div className="features-grid mt-70">
           {features.map((f) => (
             <div className="test_bg" key={f.title}>
@@ -63,7 +63,7 @@ export function TaxiIndia() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
             <div>
-              <h1 className="heading_bedore" style={{ textTransform: 'uppercase' }}>Bharat Taxi- Taxi Service in India</h1>
+              <h1 className="heading_bedore" style={{ textTransform: 'uppercase' }}>Wizz taxi- Taxi Service in India</h1>
               <p style={{ marginTop: '16px', color: '#555', lineHeight: '1.7', fontSize: '0.9rem' }}>
                 We are committed to providing our customers with exceptional service, competitive pricing, and a wide range of vehicles.
               </p>
@@ -101,7 +101,7 @@ export function UniqueSection() {
   return (
     <section style={{ background: '#f8f9fa', padding: '80px 0' }}>
       <div className="container">
-        <h2 className="heading">What Makes Bharat Taxi Unique?</h2>
+        <h2 className="heading">What Makes Wizz taxi Unique?</h2>
         <div className="unique-grid mt-70">
           {[
             { icon: `https://www.bharattaxi.com/assets/svg/cab_hygene.svg`, label: 'Cab Hygiene' },

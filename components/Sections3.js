@@ -10,7 +10,7 @@ export function DownloadSection() {
           <div style={{ flex: 1 }}>
             <h6>MOST DOWNLOADED</h6>
             <h2 className="heading_bedore" style={{ color: '#fff', marginTop: '12px', marginBottom: '8px' }}>
-              Make Your Travel Easy with<br />Bharat Taxi
+              Make Your Travel Easy with<br />Wizz taxi
             </h2>
             <span className="Download_link">Download App Now</span>
             <div className="input_number">
@@ -90,20 +90,20 @@ export function DestinationsSection() {
 }
 
 const customerReviews = [
-  { name: 'Ankit Shah', img: `https://www.bharattaxi.com/assets/google-review-img/ankit-shah.png`, stars: 5, text: 'Sumit Sharma (Driver) was helpful & polite. His driving was very perfect. I would recommend. But I would request to Bharat Taxi that pricing is very costly so kindly look into it & reduce price.' },
-  { name: 'Freaky Vicky', img: `https://www.bharattaxi.com/assets/google-review-img/freaky.png`, stars: 5, text: 'Bharat Taxi offers an excellent service with prompt, professional drivers and well-maintained, clean cars. Booking is easy, and their customer support is responsive. Prices are competitive, making it great value for money. A reliable and comfortable choice for travel. Highly recommended!' },
+  { name: 'Ankit Shah', img: `https://www.bharattaxi.com/assets/google-review-img/ankit-shah.png`, stars: 5, text: 'Sumit Sharma (Driver) was helpful & polite. His driving was very perfect. I would recommend. But I would request to Wizz taxi that pricing is very costly so kindly look into it & reduce price.' },
+  { name: 'Freaky Vicky', img: `https://www.bharattaxi.com/assets/google-review-img/freaky.png`, stars: 5, text: 'Wizz taxi offers an excellent service with prompt, professional drivers and well-maintained, clean cars. Booking is easy, and their customer support is responsive. Prices are competitive, making it great value for money. A reliable and comfortable choice for travel. Highly recommended!' },
   { name: 'Meezab Siddiqui', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'Very cooperative and professional driver. We are satisfied with your services will keep in touch for future trips thanks you lucknow. Area manager mr amir shaikh Good behaviour' },
   { name: 'Naga TR', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'Very reliable and sincere drivers. Clean car. Punctual. Was a pleasure. Will hire their services again. 5 star experience.' },
-  { name: 'Hamza imran Khan', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'Good vehicle conditions and very polite driver no hassle owner is also well behaved and helpful. And bharat taxi lucknow area manager Mr amir shaikh' },
-  { name: 'Amirtekari deeh', img: `https://www.bharattaxi.com/assets/google-review-img/amrit.png`, stars: 5, text: 'Very cooperative and professional driver we are satisfied with your services will keep in touch for our future trips thank you bharat taxi' },
-  { name: 'Sanjeev Windlas', img: `https://www.bharattaxi.com/assets/google-review-img/sanjeev.png`, stars: 4, text: 'It was an excellent experience to travel with Bharat Taxi. The booking system is very smooth and drivers were well mannered, punctual and cooperative. I wish to recommend their services to all my friends and family.' },
-  { name: 'Gaurav Gamot', img: `https://www.bharattaxi.com/assets/google-review-img/gorav-gomat.png`, stars: 5, text: 'Very good Service by Bharat Taxi and their team specially by Mr Amir and His Driver.' },
+  { name: 'Hamza imran Khan', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'Good vehicle conditions and very polite driver no hassle owner is also well behaved and helpful. And Wizz taxi lucknow area manager Mr amir shaikh' },
+  { name: 'Amirtekari deeh', img: `https://www.bharattaxi.com/assets/google-review-img/amrit.png`, stars: 5, text: 'Very cooperative and professional driver we are satisfied with your services will keep in touch for our future trips thank you Wizz taxi' },
+  { name: 'Sanjeev Windlas', img: `https://www.bharattaxi.com/assets/google-review-img/sanjeev.png`, stars: 4, text: 'It was an excellent experience to travel with Wizz taxi. The booking system is very smooth and drivers were well mannered, punctual and cooperative. I wish to recommend their services to all my friends and family.' },
+  { name: 'Gaurav Gamot', img: `https://www.bharattaxi.com/assets/google-review-img/gorav-gomat.png`, stars: 5, text: 'Very good Service by Wizz taxi and their team specially by Mr Amir and His Driver.' },
 ]
 
 const driverReviews = [
   { name: 'Vishal Kulkarni', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 3, text: 'Ravi was a polite and friendly driver. The car was well-maintained, and he knew the route well. However, he was about 15 minutes late for the pickup, which was a little frustrating.' },
   { name: 'Tushar Yadav', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'Sumit was the driver for my family\'s outstation trip. He was very helpful and his driving was perfect. He was polite and cooperative throughout the entire journey. We felt very safe and comfortable.' },
-  { name: 'Shashank Srivastava', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'A very cooperative and professional driver. Kamaljeet handled the entire trip with great care and attention to detail. We will definitely be using Bharat Taxi for future trips.' },
+  { name: 'Shashank Srivastava', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 5, text: 'A very cooperative and professional driver. Kamaljeet handled the entire trip with great care and attention to detail. We will definitely be using Wizz taxi for future trips.' },
   { name: 'Nitin Singh', img: `https://www.bharattaxi.com/assets/images/rating-image.png`, stars: 4, text: 'Aman was our driver for a local city tour. He was knowledgeable about the city and even suggested some good places to eat. Overall, a good experience.' },
 ]
 

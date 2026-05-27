@@ -8,10 +8,10 @@ export function MarqueeSection() {
     <div className="marquee-container">
       <div className="marquee-track">
         {imgs.map((src, i) => (
-          <img key={i} src={src} alt="Bharat Taxi" />
+          <img key={i} src={src} alt="Wizz taxi" />
         ))}
         {imgs.map((src, i) => (
-          <img key={`dup-${i}`} src={src} alt="Bharat Taxi" />
+          <img key={`dup-${i}`} src={src} alt="Wizz taxi" />
         ))}
       </div>
     </div>

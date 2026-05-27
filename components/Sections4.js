@@ -48,20 +48,20 @@ export function PressRelease() {
 }
 
 const bookingFAQs = [
-  { q: 'How Can I Book / Hire A Car From Bharat Taxi?', a: 'Booking a car for hiring is very easy in Bharat Taxi. You can book a car on rent either online by the search box provided at the home page or you can call us at our 24 X 7 customer care number +91-9696000999.' },
+  { q: 'How Can I Book / Hire A Car From Wizz taxi?', a: 'Booking a car for hiring is very easy in Wizz taxi. You can book a car on rent either online by the search box provided at the home page or you can call us at our 24 X 7 customer care number +91-9696000999.' },
   { q: 'Can I Have The Confirmation Of The Vehicle I Want?', a: 'Yes. A mail will be sent to your mail id you have provided containing the details of vehicle including color, vehicle number and category.' },
-  { q: 'Can I Book For Any Period Of Time?', a: 'Yes. Bharat Taxi provides our customers a wide range of packages to choose from. From half day booking (limited to 40 kms) to Long term rentals you can book for any period of time.' },
+  { q: 'Can I Book For Any Period Of Time?', a: 'Yes. Wizz taxi provides our customers a wide range of packages to choose from. From half day booking (limited to 40 kms) to Long term rentals you can book for any period of time.' },
   { q: 'What If I Need To Modify Or Extend My Reservation?', a: 'Please dial +91-9696000999 a 24 X 7 customer care and we will work with you to ensure your schedule is accommodated provided that a vehicle is available at that time.' },
   { q: 'How Do I Cancel A Reservation?', a: 'Reservations can be cancelled from our website or you can call our customer care number +91-9696000999 to cancel your reservation.' },
-  { q: 'Do I Need To Register On Bharat Taxi Before Booking A Car?', a: 'No. You can use our service fully without the need to register. Only you need to provide your details at the time of booking.' },
+  { q: 'Do I Need To Register On Wizz taxi Before Booking A Car?', a: 'No. You can use our service fully without the need to register. Only you need to provide your details at the time of booking.' },
 ]
 
 const paymentFAQs = [
   { q: 'How Can I Pay For My Rental?', a: 'You can pay for your rental by Cash to The Driver.' },
   { q: 'Can I Get A Bill / Copy Of My Payment?', a: 'Yes. After payment you will get a copy of bill duly signed and stamped from our driver.' },
-  { q: 'What Is Peak Season? Are The Prices Different During Peak Season?', a: 'Yes. Hourly rates are different during the peak season. But to avoid problems it is suggested by Bharat Taxi that you should book in advance.' },
+  { q: 'What Is Peak Season? Are The Prices Different During Peak Season?', a: 'Yes. Hourly rates are different during the peak season. But to avoid problems it is suggested by Wizz taxi that you should book in advance.' },
   { q: 'If I Cancel My Reservation, Do I Still Have To Pay?', a: 'There are no charges if you cancel more than 24 hours before booking start time. (Transactional charges will be applicable on customer.)' },
-  { q: 'What Modes Of Payments Are Accepted?', a: 'Presently Bharat Taxi accepts payment in cash and online with debit card/credit card and wallet which is accepted in our gateway.' },
+  { q: 'What Modes Of Payments Are Accepted?', a: 'Presently Wizz taxi accepts payment in cash and online with debit card/credit card and wallet which is accepted in our gateway.' },
   { q: 'What Are Other Exclusive Charges Do I Have To Pay?', a: 'For outstation, exclusive charges includes Toll Tax, Parking Charges, Night Allowances (will be applied only after 10 pm).' },
 ]
 
@@ -205,7 +205,7 @@ export function Footer() {
         </div>
         <hr />
         <div className="bottom_footer">
-          <span>© 2026 BHARAT TAXI. All Rights Reserved.</span>
+          <span>© 2026 Wizz taxi. All Rights Reserved.</span>
           <div className="payment-icons">
             {['mastercard', 'visa', 'paypal', 'google-pay', 'ruppay'].map((name) => (
               <img key={name} src={`https://www.bharattaxi.com/assets/svg/${name}.svg`} alt={name} />
