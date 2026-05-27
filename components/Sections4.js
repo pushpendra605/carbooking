@@ -48,11 +48,11 @@ export function PressRelease() {
 }
 
 const bookingFAQs = [
-  { q: 'How Can I Book / Hire A Car From Wizz taxi?', a: 'Booking a car for hiring is very easy in Wizz taxi. You can book a car on rent either online by the search box provided at the home page or you can call us at our 24 X 7 customer care number +91-9696000999.' },
+  { q: 'How Can I Book / Hire A Car From Wizz taxi?', a: 'Booking a car for hiring is very easy in Wizz taxi. You can book a car on rent either online by the search box provided at the home page or you can call us at our 24 X 7 customer care number +91-9837689171.' },
   { q: 'Can I Have The Confirmation Of The Vehicle I Want?', a: 'Yes. A mail will be sent to your mail id you have provided containing the details of vehicle including color, vehicle number and category.' },
   { q: 'Can I Book For Any Period Of Time?', a: 'Yes. Wizz taxi provides our customers a wide range of packages to choose from. From half day booking (limited to 40 kms) to Long term rentals you can book for any period of time.' },
-  { q: 'What If I Need To Modify Or Extend My Reservation?', a: 'Please dial +91-9696000999 a 24 X 7 customer care and we will work with you to ensure your schedule is accommodated provided that a vehicle is available at that time.' },
-  { q: 'How Do I Cancel A Reservation?', a: 'Reservations can be cancelled from our website or you can call our customer care number +91-9696000999 to cancel your reservation.' },
+  { q: 'What If I Need To Modify Or Extend My Reservation?', a: 'Please dial +91-9837689171 a 24 X 7 customer care and we will work with you to ensure your schedule is accommodated provided that a vehicle is available at that time.' },
+  { q: 'How Do I Cancel A Reservation?', a: 'Reservations can be cancelled from our website or you can call our customer care number +91-9837689171 to cancel your reservation.' },
   { q: 'Do I Need To Register On Wizz taxi Before Booking A Car?', a: 'No. You can use our service fully without the need to register. Only you need to provide your details at the time of booking.' },
 ]
 
@@ -133,7 +133,7 @@ export function Footer() {
           <div>
             <img src={`https://www.bharattaxi.com/assets/images/logo.svg`} className="heading-logo" alt="Logo" />
             <ul className="footer-list" style={{ marginTop: '24px' }}>
-              <li className="email"><a href="tel:+919696000999">+91-9696000999</a></li>
+              <li className="email"><a href="tel:+919837689171">+91-9837689171</a></li>
               <li className="email" style={{ marginTop: '8px' }}><a href="mailto:info@bharattaxi.com">info@bharattaxi.com</a></li>
             </ul>
             <div className="social-icon">
@@ -230,7 +230,7 @@ export function FloatingButtons() {
 
       {/* WhatsApp */}
       <div className="whatsapp-btn">
-        <a href="https://api.whatsapp.com/send?phone=919696000999&text=Hi" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+        <a href="https://api.whatsapp.com/send?phone=919837689171&text=Hi" target="_blank" rel="noreferrer" aria-label="WhatsApp">
           <svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="30" cy="30" r="30" fill="#32D851" />
             <path d="M35.75 32.5C35.5 32.375 33.875 31.625 33.625 31.5C33.375 31.375 33.125 31.375 32.875 31.625C32.625 31.875 32.125 32.625 31.875 32.875C31.75 33.125 31.5 33.125 31.25 33C30.375 32.625 29.5 32.125 28.75 31.5C28.125 30.875 27.5 30.125 27 29.375C26.875 29.125 27 28.875 27.125 28.75C27.25 28.625 27.375 28.375 27.625 28.25C27.75 28.125 27.875 27.875 27.875 27.75C28 27.625 28 27.375 27.875 27.25C27.75 27.125 27.125 25.625 26.875 25C26.75 24.125 26.5 24.125 26.25 24.125H25.625C25.375 24.125 25 24.375 24.875 24.5C24.125 25.25 23.75 26.125 23.75 27.125C23.875 28.25 24.25 29.375 25 30.375C26.375 32.375 28.125 34 30.25 35C30.875 35.25 31.375 35.5 32 35.625C32.625 35.875 33.25 35.875 34 35.75C34.875 35.625 35.625 35 36.125 34.25C36.375 33.75 36.375 33.25 36.25 32.75L35.75 32.5Z" fill="white" />
