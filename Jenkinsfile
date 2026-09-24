@@ -20,5 +20,12 @@ pipeline {
                 sh 'npm run build'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh '''
+                    sudo /usr/bin/rsync -av --delete \
+                    out/ /var/www/wizzcab/wizzcab/out/
+                '''
+            }
     }
 }
