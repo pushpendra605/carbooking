@@ -27,5 +27,6 @@ pipeline {
                     out/ /var/www/wizzcab/wizzcab/out/
                 '''
             }
+        }
     }
 }
